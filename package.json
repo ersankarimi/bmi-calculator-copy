@@ -1,0 +1,24 @@
+{
+  "name": "bmi-calculator",
+  "version": "0.1.0",
+  "description": "BMI Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersankarimi/bmi-calculator-copy.git"
+  },
+  "keywords": [
+    "demo",
+    "nodejs",
+    "bmi-calculator"
+  ],
+  "author": "Ersan Karimi <ersankarimii311@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ersankarimi/bmi-calculator-copy/issues"
+  },
+  "homepage": "https://github.com/ersankarimi/bmi-calculator-copy#readme"
+}
