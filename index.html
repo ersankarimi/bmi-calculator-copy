@@ -7,7 +7,71 @@
 		<title>BMI Calculator</title>
 		<link rel="stylesheet" href="/assets/css/index.css" />
 	</head>
-	<body>
+	<body class="bg-main-white text-main-black">
+		<header
+			class="p-8 text-center flex flex-col justify-center items-center mt-8"
+		>
+			<h1 class="text-[2rem] mb-4 font-bold">Check your BMI</h1>
+			<p class="font-normal">
+				Enter your weight and height below to check your BMI results
+			</p>
+		</header>
+
+		<main
+			class="w-full px-[0.5em] py-[2em] flex flex-col justify-center md:w-[80%] md:m-auto xl:w-[70%] 2xl:w-[50%]"
+		>
+			<form class="w-full">
+				<div class="flex flex-col mt-[2.15em] mb-[2.25em]">
+					<label class="font-medium xl:text-[1.15rem]" for="weight"
+						>Put your weight in here (KG)</label
+					>
+					<input
+						type="number"
+						class="border-[1px] p-[1em] my-[0.8em] rounded-lg border-main-black/80 focus:outline focus:outline-main-black/60"
+						min="0"
+						max="800"
+						step="any"
+						name="weight"
+						id="weight"
+						placeholder="Input your weight"
+						required
+					/>
+				</div>
+				<div class="flex flex-col mt-[2.15em] mb-[2.25em]">
+					<label class="font-medium xl:text-[1.15rem]" for="height"
+						>And your height in here (CM)</label
+					>
+					<input
+						type="number"
+						class="border-[1px] p-[1em] my-[0.8em] rounded-lg border-main-black/80 focus:outline focus:outline-main-black/60"
+						min="0"
+						max="300"
+						step="any"
+						name="height"
+						id="height"
+						placeholder="Input your height"
+						required
+					/>
+				</div>
+
+				<button
+					type="submit"
+					class="bg-[rgb(101,88,245)] font-semibold rounded-lg py-[0.8em] px-[1.25em] text-main-white hover:brightness-90 text-[1.125rem]"
+				>
+					Calculate BMI
+				</button>
+			</form>
+
+			<section id="result" class="text-left mt-[2.5em]">
+				<h2
+					class="hidden"
+					class="font-medium text-left text-base xl:text-[1.115rem]"
+				>
+					Your BMI is <strong id="bmi-value">40</strong> which means You are
+					<strong id="bmi-category">Normal</strong>
+				</h2>
+			</section>
+		</main>
 		<script type="module" src="/assets/js/index.js"></script>
 	</body>
 </html>
