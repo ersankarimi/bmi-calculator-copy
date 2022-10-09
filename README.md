@@ -13,4 +13,4 @@ Skilvul. Untuk detail tugas lebih lanjut bisa dilihat pada link berikut :
 
 ## Live Demo
 
-[BMI Calculator](https://)
+[BMI Calculator](https://ersan-bmi-calculator-2.netlify.app/)
